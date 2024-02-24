@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap");
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #9897a9;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -58,4 +82,30 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.row{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnConvert {
+  width: 200px;
+  display: block;
+  padding: 10px;
+  margin:0 auto;
+  border-radius: 15px;
+  background-color: #322d31;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+select, input{
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding: 8px 15px;
+  font-weight: 700;
 }
