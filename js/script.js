@@ -18,7 +18,7 @@ fetch(`https://${host}/currencies`)
   function convert(){
     input_currency_val = input_currency.value;
     if(select[0].value != select[1].value ){
-        alert("yes")
+        //alert("yes")
         const host = 'api.frankfurter.app';
        fetch(`https://${host}/latest?amount=${input_currency_val}&from=${select[0].value}&to=${select[1].value}`)
          .then((val) => val.json())
